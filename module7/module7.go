@@ -1,4 +1,3 @@
 package module7
 
-//go:generate import "fmt"
-//go:generate import "runtime"
+//go:generate goimports -w module7_code.go
